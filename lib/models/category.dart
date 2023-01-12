@@ -6,8 +6,8 @@ class Category {
   final Color color;
 
   const Category({
-    @required this.id = "1",
-    @required this.title = "meals",
+    required this.id,
+    required this.title,
     this.color = Colors.orange,
   });
 }
